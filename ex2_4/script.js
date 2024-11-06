@@ -1,7 +1,7 @@
 const  frm=document.querySelector("form")
 const resp=document.querySelector('h3')
 
-frm.addEventListener('submit',(e) =>{
+frm.addEventListener('submit',(e) =>{ // ao apertar o submit acontecerá o evento abaixo
 const quilo=Number(frm.inQuilo.value)
 const consumo=Number(frm.inConsumo.value)
 
